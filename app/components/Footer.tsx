@@ -6,13 +6,19 @@ const Footer = () => {
       <h1 className="text-2xl font-bold">Rounit Kashyap</h1>
 
       <div className="flex space-x-6 mt-4">
-        <a href="#" className="hover:text-gray-300">
+        <a
+          href="https://www.linkedin.com/in/rounitkumar568"
+          className="hover:text-gray-300"
+        >
           <FaLinkedin size={24} />
         </a>
-        <a href="#" className="hover:text-gray-300">
+        <a href="https://x.com/RounitKash92962" className="hover:text-gray-300">
           <FaTwitter size={24} />
         </a>
-        <a href="#" className="hover:text-gray-300">
+        <a
+          href="https://www.instagram.com/the_webroot/"
+          className="hover:text-gray-300"
+        >
           <FaInstagram size={24} />
         </a>
       </div>
