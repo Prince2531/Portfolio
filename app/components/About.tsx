@@ -16,13 +16,13 @@ const About = () => {
         <div className="w-full md:col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div>
 
-          <div className="flex flex-row p=6">
+          <div className="flex flex-row p-6">
             <Image src={book} alt="book" className="w-auto h-[130px]" />
             <div className="flex flex-col mt-4">
               <h2 className="text-2xl font-bold text-white/80">Education</h2>
               <p className="text-lg text-white/70 mt-2">
-                I'm Currently pursuing Computer Science degree and I am focusing
-                on technologies like React , Next.js , and Tailwind CSS.
+                I&#39;m Currently pursuing a Computer Science degree and
+                focusing on technologies like React, Next.js, and Tailwind CSS.
               </p>
             </div>
           </div>

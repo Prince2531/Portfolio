@@ -1,4 +1,3 @@
-import { div, label } from "framer-motion/client";
 import {
   FaCss3Alt,
   FaHtml5,
@@ -6,7 +5,6 @@ import {
   FaReact,
   FaRust,
 } from "react-icons/fa";
-import { FaC } from "react-icons/fa6";
 
 const skillIcons = [
   { icon: <FaHtml5 size={140} />, label: "HTML" },
