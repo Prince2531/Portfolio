@@ -16,7 +16,9 @@ const Contact = () => {
           </li>
           <li className="flex items-center">
             <Image src={mail} alt="mail" className="h-[110px] w-auto mr-6" />
-            <p className="text-xl">rounitkashyap568@gmail.com</p>
+            <p className="text-[15px] font-semibold">
+              rounitkashyap568@gmail.com
+            </p>
           </li>
         </ul>
       </div>
