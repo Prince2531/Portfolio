@@ -36,13 +36,13 @@ const Contact = () => {
           <div className="grid md:grid-cols-2 gap-4">
             <input
               type="text"
-              name="name"
+              name="first-name"
               className="bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
               placeholder="First Name"
             />
             <input
               type="text"
-              name="name"
+              name="last-name"
               className="bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
               placeholder="Last Name"
             />
@@ -60,6 +60,7 @@ const Contact = () => {
             />
           </div>
           <textarea
+            name="Message"
             className="bg-black/70 w-full rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
             placeholder="Your Message"
           />
