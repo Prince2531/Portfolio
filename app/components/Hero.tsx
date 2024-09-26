@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import icon1 from "@/app/assets/icon1.png";
-import lightning from "@/app/assets/icon2.png";
+import icon1 from "@/app/assets/code.png";
+import lightning from "@/app/assets/code1.png";
 import profilePic from "@/app/assets/profilepic.png";
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="relative">
         <div className="text-8xl font-bold text-center">
           <h1 className="text-[#98B4CE]">Hi, I am</h1>
-          <h1 className="text-[#E48A87]">Rounit Kashyap</h1>
+          <h1 className="text-[#E48A87]">Prince Kumar</h1>
         </div>
 
         <motion.div

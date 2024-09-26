@@ -12,12 +12,12 @@ const Contact = () => {
         <ul className="space-y-4">
           <li className="flex items-center">
             <Image src={phone} alt="phone" className="h-[110px] w-auto mr-6" />
-            <p className="text-xl">+91 7677504348</p>
+            <p className="text-xl">+91 9142914412</p>
           </li>
           <li className="flex items-center">
             <Image src={mail} alt="mail" className="h-[110px] w-auto mr-6" />
             <p className="text-[15px] font-semibold">
-              rounitkashyap568@gmail.com
+              kumarprince2503@gmail.com
             </p>
           </li>
         </ul>
@@ -32,7 +32,7 @@ const Contact = () => {
         </p>
         <form
           className="space-y-4"
-          action="https://getform.io/f/byvpxdma"
+          action="https://getform.io/f/bxojqoza"
           method="POST"
         >
           <div className="grid md:grid-cols-2 gap-4">

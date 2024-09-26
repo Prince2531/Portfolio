@@ -1,7 +1,11 @@
+import { label } from "framer-motion/client";
 import {
   FaCss3Alt,
   FaHtml5,
   FaJsSquare,
+  FaLinux,
+  FaNetworkWired,
+  FaPython,
   FaReact,
   FaRust,
 } from "react-icons/fa";
@@ -9,9 +13,10 @@ import {
 const skillIcons = [
   { icon: <FaHtml5 size={140} />, label: "HTML" },
   { icon: <FaCss3Alt size={140} />, label: "CSS" },
-  { icon: <FaJsSquare size={140} />, label: "JavaScript" },
-  { icon: <FaReact size={140} />, label: "React" },
-  { icon: <FaRust size={140} />, label: "Rust" },
+  { icon: <FaPython size={140} />, label: "Python" },
+  {icon: <FaLinux size={140}/>, label: "Linux"},
+  {icon: <FaNetworkWired size={140}/>, label: "Computer Networking"},
+  {icon: <FaJsSquare size={140}/> , label: "Javascript"}
 ];
 
 const Skills = () => {

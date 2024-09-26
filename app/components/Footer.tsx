@@ -3,23 +3,17 @@ import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="px-6 mt-12 md:px-0mt-12 text-white/70 py-8 max-w-[1000px] mx-auto border-t border-gray-700 pt-4 flex justify-between items-center">
-      <h1 className="text-2xl font-bold">Rounit Kashyap</h1>
+      <h1 className="text-2xl font-bold">Prince Kumar</h1>
 
       <div className="flex space-x-6 mt-4">
         <a
-          href="https://www.linkedin.com/in/rounitkumar568"
+          href="www.linkedin.com/in/prince2531"
           className="hover:text-gray-300"
         >
           <FaLinkedin size={24} />
         </a>
-        <a href="https://x.com/RounitKash92962" className="hover:text-gray-300">
+        <a href="https://x.com/PKumar250361552" className="hover:text-gray-300">
           <FaTwitter size={24} />
-        </a>
-        <a
-          href="https://www.instagram.com/the_webroot/"
-          className="hover:text-gray-300"
-        >
-          <FaInstagram size={24} />
         </a>
       </div>
     </div>
