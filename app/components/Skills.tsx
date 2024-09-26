@@ -1,4 +1,3 @@
-import { label } from "framer-motion/client";
 import {
   FaCss3Alt,
   FaHtml5,
@@ -6,8 +5,6 @@ import {
   FaLinux,
   FaNetworkWired,
   FaPython,
-  FaReact,
-  FaRust,
 } from "react-icons/fa";
 
 const skillIcons = [
